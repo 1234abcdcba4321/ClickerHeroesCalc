@@ -6,6 +6,12 @@ var cost+=Math.ceil(i^ancient.scale)
  return(cost);
 }
 
-function ancientpwr(){}
+
 
 function list(){}
+
+
+/*Here's the actual thing:
+dps=gold/0.93=[solo formula]=morg^0.5
+
+*/
