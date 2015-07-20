@@ -1,0 +1,13 @@
+function Import() {
+  var txt = $("#savedata").val();
+  if (txt.search(ANTI_CHEAT_CODE) != -1) {
+    var result = txt.split(ANTI_CHEAT_CODE);
+    txt = "";
+    for (var i = 0; i < result[0].length; i += 2) {
+      txt += result[0][i];
+    }
+    if (CryptoJS.MD5(txt + SALT) != result[1]) {
+      alert("Bad hash");
+      return;
+    }
+  }
