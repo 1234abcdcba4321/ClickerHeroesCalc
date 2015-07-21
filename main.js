@@ -15,3 +15,9 @@ function list(){}
 dps=gold/0.93=[solo formula]=morg^0.5
 
 */
+
+function availcost(){
+ while (tot<souls)
+totcost=ancientcost(siya)
+}
+}
